@@ -1,7 +1,9 @@
 <template >
   <div id="app">
-    <div ><con-tent></con-tent></div>
-    <div><MyMenu></MyMenu></div>
+    <dv-full-screen-container>
+      <div ><con-tent></con-tent></div>
+      <div><MyMenu></MyMenu></div>
+    </dv-full-screen-container>
   </div>
 </template>
 

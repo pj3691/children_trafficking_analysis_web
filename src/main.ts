@@ -5,8 +5,13 @@ import router from './router'
 import store from './store'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import DataV from '@jiaminghi/data-view'
+import Charts from '@jiaminghi/charts'
+import VCharts from 'v-charts'
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+Vue.use(DataV)
+Vue.use(VCharts)
 
 new Vue({
   router,

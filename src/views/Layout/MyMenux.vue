@@ -33,26 +33,26 @@
         </el-menu-item-group>
     </el-menu>
       </div>
-    <div class="div2"><router-view></router-view></div>
+    <div class="div"><router-view></router-view></div>
     </div>
 </template>
 
 <script>
 export default {
-
 }
 </script>
 
 <style>
 .div{
   text-align:center;
-  width:15% ;
-  line-height: 100px;
-  background-color: #293AA7;
+  width:85% ;
+  height: 689px;
+  background-color: #a1abe8;
   color: aliceblue;
+  float: left;
 }
 .div2{
-    text-align:center;
+  text-align:center;
   width:15% ;
   line-height: 100px;
   background-color: #293AA7;
