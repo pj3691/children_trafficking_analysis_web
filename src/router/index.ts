@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import HomePage from '../components/HomePage.vue'
+import MapPage from '../components/MapPage.vue'
 import DataAnalysis from '../components/DataAnalysis.vue'
+import LogIn from '../components/LogIn.vue'
+import CaseEntry from '../components/CaseEntry.vue'
 import ConTent from '../views/Layout/ConTent.vue'
 import APP from '../App.vue'
 import MyMenux from '../views/Layout/MyMenux.vue'
@@ -16,11 +18,23 @@ const router = new VueRouter({
   routes: [
     {
       path: '',
-      component: HomePage
+      component: DataAnalysis
     },
     {
       path: '/DataAnalysis',
       component: DataAnalysis
+    },
+    {
+      path: '/LogIn',
+      component: LogIn
+    },
+    {
+      path: '/MapPage',
+      component: MapPage
+    },
+    {
+      path: '/CaseEntry',
+      component: CaseEntry
     }
   ]
 })

@@ -5,3 +5,4 @@ declare module '*.vue' {
 declare module '@jiaminghi/data-view';
 declare module '@jiaminghi/charts';
 declare module 'v-charts';
+declare module 'v-charts/lib/pie.common';
